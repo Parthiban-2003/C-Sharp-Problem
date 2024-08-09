@@ -1,0 +1,4 @@
+http://MS-NB0101/AdeNet_UploadControl/
+
+User - dev@m-s.ch
+Password - muster

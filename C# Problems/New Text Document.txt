@@ -1,0 +1,31 @@
+using System;
+
+namespace Program
+{
+    public class RemoveVowles
+    {
+        public static void Main(string[]args)
+        {
+            Console.WriteLine("Enter their string:");
+            string Text=Console.ReadLine();
+            
+            string input=RemoveVowels(Text);
+            Console.WriteLine(input);
+        }
+        
+        static string RemoveVowels(string str)
+        {
+            string vowels ="aeiouAEIOU";
+            string result="";
+            
+            foreach(char c in str)
+            {
+                if(!vowels.Contains(c))
+                {
+                    result=result+c;
+                }
+            }
+            return result;
+        }
+    }
+}
